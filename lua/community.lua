@@ -5,9 +5,9 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
-  { import = "astrocommunity.colorscheme.gruvbox-nvim" },
   { import = "astrocommunity.search.nvim-spectre"},
   -- import/override with your plugins folder
 }
